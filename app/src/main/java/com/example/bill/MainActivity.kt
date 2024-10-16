@@ -98,7 +98,10 @@ fun CalculatorApp() {
         Spacer(modifier = Modifier.height(32.dp))
 
         // mostrar el monto de la propina calculada
-        Text(text = "Tip Amount: $${"%.2f".format(tipAmount)}", style = MaterialTheme.typography.headlineMedium)
+        Text(
+            text = "Tip Amount: $${"%.2f".format(tipAmount)}",
+            style = MaterialTheme.typography.headlineMedium
+        )
     }
 }
 
